@@ -1,5 +1,32 @@
 # git-theory
-A personal git usage style guide
+
+A personal git usage style guide.
+
+## Main parts
+
+- commits
+  - commit message
+  - amount of work it covers
+  - related files (committing more than one file is the exception)
+- branch work
+  - what a branch represents
+  - sequence of stuff
+  - branch name
+  - deleting branches, and the associated git commands
+- changelog.md
+  - this is basically an ordered list of work at the higher order feature level of abstraction, usually a feature branch, but sometimes via master
+  - metadata is shared between each list item
+    - starting point version number
+    - ending point version number
+    - branch name
+    - steps/points/description of the work related to this list item
+- tagging
+- semver version bumping
+- .gitignore
+- git resources
+  - [Pro Git](https://git-scm.com/book)
+  - [Git from the Bottom Up](https://jwiegley.github.io/git-from-the-bottom-up/)
+  - [How to Teach Git](https://rachelcarmena.github.io/2018/12/12/how-to-teach-git.html)
 
 ---
 
